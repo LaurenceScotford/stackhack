@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* StackHack
+   Laurence Scotford - 31st December 2014 */
+
+button
+{
+	background: #E53030;
+	border: 3px solid #fff;
+  	border-radius: 20%;
+	box-shadow: 0 -2px 0 3px darken(#E53030, 10%) inset, 0 5px 5px rgba(darken(#E53030, 40%), 0.17), 0 15px rgba(#fff, 0.25) inset;
+  	cursor: pointer;
+  	display: inline-block;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white; 
+	font-size: 18px;
+}
+
+#gamecanvas
+{
+	background-image:url(../images/backdrop.png);
+	display: none;
+}
+
+#time
+{
+	position: absolute;
+	top: 10px;
+	left: 835px;
+	display: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: red; 
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#tutorial
+{
+	display: none;
+	position: absolute;
+	background-color: rgba(255,255,255,0.90);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: red; 
+	font-size: 18px;
+	border: 3px solid red;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#messagescreen
+{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 960px;
+	height: 640px;
+	background-color: rgba(255,255,255,0.5);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: red; 
+	font-size: 48px;
+}
+
+#message
+{
+	text-align: center;
+	margin: 200px 0px 50px 0px;
+}
+
+#levels_button
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#levelselect
+{
+	display: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: red; 
+}
+
+#titlescreen
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: red; 
+	background-image:url(../images/title.png);
+	width: 960px;
+	height: 640px;
+	border: 1px solid black;
+}
+
+#titlescreen h1
+{
+	margin-left: 10px;
+}
+
+#titlescreen p
+{
+	width: 40%;
+	margin-left: 10px;
+}
+
+h1
+{
+	font-size: 36px;
+}
+
+h2
+{
+	font-size: 24px;
+}
+
+#startgame
+{
+	display: none;
+}
+
+#loading
+{
+	display: block;
+}
+
+.present0
+{
+	background-image: url(../images/level_select_0.png);
+}
+
+.present1
+{
+	background-image: url(../images/level_select_1.png);
+}
+
+.present2
+{
+	background-image: url(../images/level_select_2.png);
+}
+
+.present3
+{
+	background-image: url(../images/level_select_3.png);
+}
+
+.present4
+{
+	background-image: url(../images/level_select_4.png);
+}
+
+.present5
+{
+	background-image: url(../images/level_select_5.png);
+}
+
+.present
+{
+	width: 48px;
+	height: 48px;
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
