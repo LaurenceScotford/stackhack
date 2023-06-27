@@ -35,4 +35,4 @@ Other than those frameworks, the game is standard ES5 JavaScript.
 All code (other than dependencies cited above) and graphics are by me, Laurence Scotford.
 
 ### Further information
-If you are interested, there's [futher information about the development of this prototype](https://laurencescotford.com/stackhack-a-game-prototyping-project-part-1-paper-prototyping/) on my website.
+If you are interested, there's [futher information about the development of this prototype](https://laurencescotford.net/stackhack-a-game-prototyping-project-part-1-paper-prototyping/) on my website.
